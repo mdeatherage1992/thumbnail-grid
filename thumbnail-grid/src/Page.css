@@ -1,0 +1,114 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+    display: inline-flex;
+    position: relative;
+    right: 500px;
+    table-layout: fixed; /* optional, for equal spacing */
+    flex-wrap:wrap;
+    border-collapse: collapse;
+}
+.grid {
+  position: relative;
+  left: 100px;
+}
+
+
+h2 {
+  position: relative;
+  right: 230px;
+}
+
+@media only screen and (max-width: 600px) {
+    table {
+        display: block;
+    }
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 20px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+.picture {
+  position: relative;
+}
+
+.name {
+  position: relative;
+  float: bottom;
+  color:green;
+}
+
+.name p {
+  color:#a6a6a6;
+  size: .4em;
+}
+
+
+
+.thumbnail {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: relative;
+  text-align:bottom;
+
+  left: 300px;
+}
+
+button#blue {
+  color:blue;
+  right: 150px;
+  width: 300px;
+  position: relative;
+}
+
+
+
+button#red {
+  color:red;
+  position: fixed;
+  top: 100px;
+  width: 300px;
+}
+
+.grid h1 {
+  position: relative;
+  right: 300px;
+}
+
+.thumbnail p{
+  position: relative;
+  top: 40px;
+  bottom: auto;
+  font-size:.8em;
+}
+
+a:link {
+    color: #1a75ff;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+div.branding {
+  text-align: bottom;
+  padding: 10px 20px;
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
